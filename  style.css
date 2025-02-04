@@ -2,5 +2,129 @@ html, body {
     height: 100%;
     width: 100%;
   }
-
+  
+  body {
+     font-family: Verdana;
+     font-size: 14pt;
+  }
+  
+  header {
+     background-color: #00c9fd;
+     width: 900px;
+  }
+  
+  #wrapper {
+     width: 900px;
+     margin: auto;
+  }
+  
+  nav {
+     background-color: #cccccc;
+     width: 900px;
+  }
+  
+  article {
+     background-color: #cccccc;
+     width: 900px;
+  }
+  
+  #contact {
+     background-color: #cccccc;
+     width: 900px;
+  }
+  
+  footer {
+     background-color: #00c9fd;
+     width: 900px;
+  }
+  
+  * {
+     margin: 0;
+  }
+  
+  header h1 {
+     font-family: Impact;
+     font-size: 30pt;
+     color: rgb(255,255,255);
+     padding: 20px 5px 5px 5px;
+  }
+  
+  nav a {
+     font-family: Impact;
+     font-size: 15pt;
+     color: rgb(0,0,0);
+     text-decoration: none;
+     margin: 50px
+  }
+  
+  nav {
+     display: inline-block;
+     width: 200px 50px;
+     text-align: left;
+     line-height: 50px;
+  }
+  
+  nav a:hover {
+    color: white;
+    cursor: pointer;
+  }
+   
+  #bigimage p {
+     color: #00c9fd;
+     background-color: #ffffff;
+     font-size: 12pt
+  }
+  
+  img {
+     display: block;
+  }
+  
+  p {
+     padding: 20px;
+  }
+  
+  article h1 {
+     padding: 10px;
+     text-align: center;
+     font-family: Impact;
+     font-size: 25pt
+  }
+  
+  article {
+     margin: 20px 0px 20px 0;
+  }
+  
+  article img {
+     float: right;
+     margin: 20px 20px 20px 30px;
+  }
+  
+  article img{
+    width: 348px;
+  }
+  
+  article p a{
+    color: #00c9fd;
+    text-decoration: none;
+  }
+  
+  article p a:hover{
+    font-size: 110%;
+    color: black;
+  }
+  
+  #contact a {
+     color: #00c9fd;
+     text-decoration: none;
+  }
+  
+  #contact a:hover {
+    color: white;
+    cursor: pointer;
+  }
+  
+  footer p {
+    color: white;
+    height: 150px;
+  }
   
